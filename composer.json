@@ -9,6 +9,9 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "DeltaSkeletonModule": "src/" }
+    },
     "require": {
         "deltaphp/deltacore": "dev-master"
     }
