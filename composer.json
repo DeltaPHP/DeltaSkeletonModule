@@ -13,6 +13,6 @@
         "psr-0": { "DeltaSkeletonModule": "src/" }
     },
     "require": {
-        "deltaphp/deltacore": "dev-master"
+        "deltaphp/deltacore": "~2.0"
     }
 }
