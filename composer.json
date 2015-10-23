@@ -1,7 +1,7 @@
 {
     "name": "deltaphp/deltaskeletonmodule",
     "description": "DeltaSkeletonModule",
-    "license": "GPL-3+",
+    "license": "GPL-3",
     "authors": [
         {
             "name": "orbisnull",
@@ -13,6 +13,6 @@
         "psr-0": { "DeltaSkeletonModule": "src/" }
     },
     "require": {
-        "deltaphp/deltacore": "~2.0"
+        "deltaphp/deltacore": "^2.0"
     }
 }

@@ -11,20 +11,22 @@ use DeltaSkeletonModule\Model\DemoText;
 
 class IndexController extends AbstractController
 {
-    protected  $demoText;
+    protected $demoText;
 
     public function getDemoText()
     {
         if (is_null($this->demoText)) {
             $this->demoText = new DemoText();
         }
+
         return $this->demoText;
     }
 
-    public function indexAction()
+    public function IndexAction($params)
     {
         $text = $this->getDemoText()->getData();
         $this->getView()->assign("text", $text);
+        $this->getView()->assignArray(["params" => $params]);
     }
 
 
